@@ -134,15 +134,15 @@ lang: "ko"  # default lang is en
 # it will be always kept on every visit (i.e. no matter
 # the browser is closed or not)
 #
-night_mode: "auto"
+night_mode: "off"
 
 # Code badge setting
 # You can enable or disable the code badge and so on
-# code_badge:
-#   enabled: "true"
-#   color: "#fff"
-#   background_color: "#ff4e00"
-#   text_transform: "uppercase"  # ("uppercase", "lowercase", "capitalize")
+code_badge:
+  enabled: "true"
+  color: "#fff"
+  background_color: "#ff4e00"
+  text_transform: "uppercase"  # ("uppercase", "lowercase", "capitalize")
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
@@ -158,7 +158,7 @@ defaults:
   home:
     heading: "This is Muzee World"
     subheading: "Welcome to my world"
-    banner: "assets/images/banners/home.jpeg"
+    banner: "assets/images/banners/blue.png"
 
 # Banner default settings
 # These banner settings are for global banner default, but you can also
